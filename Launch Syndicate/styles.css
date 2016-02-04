@@ -1,0 +1,145 @@
+/* BASICS */
+
+body {
+    background-color: #F7F7F7;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h2 { 
+    font-size: 72px
+}
+
+a {
+    color: #76F5A8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.left {
+    display: block;
+    float: left;
+}
+
+.right {
+    display: block;
+    float: right;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+button {
+    border: 1px solid #76F5A8;
+    padding: 10px 25px;
+    background-color: #EFEFEF;
+    color: #76F5A8;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #76F5A8;
+    color: #EFEFEF;
+}
+
+/* HEADER */
+
+header {
+    width: auto;
+    height: 75px;
+}
+
+
+logo {
+    margin: 15px;
+}
+
+logo img {
+    height: 40px;
+}
+
+nav {
+    padding: 20px 25px;
+    
+}
+
+nav a {
+    font-size: 20px;
+    color: #4A4A4A;
+}
+
+/* INTRO */
+
+#intro {
+    width: auto;
+    height: 450px;
+}
+
+#Layer_1 {
+    width: 85%;
+    margin-top: 100px;
+    margin-left: -50px;
+    
+}
+
+.syndicate-svg {
+    fill: #76F5A8;
+}
+
+#tagline {
+    width: 40%;
+    height: 300px;
+    right: 20%;
+    margin-top: -120px;
+    position: absolute;
+    z-index: 999;
+}
+
+#contact {
+    width: 220px;
+}
+
+#contact a {
+    width: 100%;
+}
+
+/* PROJECTS */
+
+.projects {
+    height: 450px;
+    display: block;
+    width: 100%;
+    background-color: #EFEFEF;
+}
+
+.projects h2 {
+    margin: 20px 0 0 0;
+}
+
+.project-image {
+    width: 66%;
+    height: 100%;
+}
+
+.project-copy {
+    width: 26%;
+    padding-top: 100px;
+    padding-left: 4%;
+    padding-right: 4%
+}
+
+#siphon-image {
+    background: url("/images/Siphon-image.png") center center no-repeat;
+}
+
+#rivers-image {
+    background: url("/images/Rivers-image.png") center center no-repeat;
+}
+
+#peaks-image {
+    background: url("/images/Peaks-image.png") center center no-repeat;
+}
